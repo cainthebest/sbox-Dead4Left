@@ -1,6 +1,6 @@
 using Sandbox;
 
-[GameResource( "Item", "item", "A item game resource", Icon = "track_changes" ) ]
+[GameResource("Item", "item", "A item game resource", Icon = "track_changes")]
 public class Item : GameResource
 {
 	public PrefabFile weaponPrefab { get; set; }
